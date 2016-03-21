@@ -1,0 +1,54 @@
+@media (min-width: 30px) and (max-width: 690px) {
+    #promo {
+        height: 740px;
+    }
+    .promo_buttons,
+    .promo_logo {
+        display: block;
+        text-align: center;
+        float: none!important;
+        font-weight: bold;
+        margin-top: 0px;
+    }
+.title-header > h3 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #fff;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    margin-top: 160px;
+    line-height: 50px;
+    letter-spacing: 3px;
+}
+.title-header > .title-paragraph {
+    position: relative;
+    left: calc(50% - 140px);
+    font-size: 18px;
+    letter-spacing: 0px;
+    width: 220px;
+}
+.button-header {
+    position: relative;
+    left: calc(50% - 140px);
+    top: 1%;
+    border: 2px solid #ff4e50;
+    width: 280px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #ff4e50;
+}
+.header-link {
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+.button-description {
+    text-align: center;
+    margin-top: 10px;
+}
+}

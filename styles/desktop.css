@@ -1,0 +1,89 @@
+#promo {
+    height: 700px;
+    background: no-repeat center/cover url("../image/dsa.jpg");
+}
+.promo_header {
+    height: 150px;
+    line-height: 150px;
+}
+.promo_logo {
+    float: left;
+    font-family: MontserratBold;
+    font-size: 20px;
+}
+.promo_buttons {
+    float: right;
+    font-family: MontserratBold;
+    font-size: 14px;
+}
+.promo_logo > li,
+.promo_buttons > li {
+    list-style-type: none;
+    display: inline-block;
+}
+.promo_logo a,
+.promo_buttons a {
+    text-decoration: none;
+    color: #fff;
+    font-family: MontserratBold;
+}
+.promo_buttons a {
+    padding: 10px 18px;
+  /*  border: 2px solid white;*/
+    border-radius: 20px;
+}
+.promo_buttons .promo_button_sigin>a {
+    border-radius: 20px;
+    border: 2px solid white;
+}
+.promo-button-login {
+    margin-right: 20px;
+}
+
+.title-header h3,
+.title-header p
+{
+    text-align:center;
+}
+
+
+.title-header > h3 {
+/*    text-align: center;*/
+    font-size: 52px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #fff;
+    word-spacing: 17px;
+    letter-spacing: 5px;
+}
+.title-header > .title-paragraph {
+/*    text-align: center;*/
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: lighter;
+    color: #fff;
+    margin-top: -12px;
+    letter-spacing: 2px;  
+}
+.button-header {
+    position: relative;
+    left: 42%;
+    top: 2.5%;
+    border: 2px solid #ff4e50;
+    width: 225px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #ff4e50;
+}
+.header-link {
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+.button-description {
+    text-align: center;
+    margin-top: 10px;
+}
