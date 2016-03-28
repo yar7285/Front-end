@@ -102,23 +102,260 @@
     font-family: Montserrat;
     font-weight: bold;
 }
+.row {
+    margin-left: 70px;
+}
 #works > div {
     display: inline-block;
-    border-radius: 30px;
+    border-radius: 5px;
     height: 393px;
     width: 263px;
     margin-top: 40px;
+/*    max-width: 100%;*/
+/*    margin-left: 20px;*/
 }
 .step1 {
     background: no-repeat center/auto url("../image/step1.png");
-    margin-left: 250px;
+/*    margin-left: 10%;*/
 }
 .step2 {
     background: no-repeat center/auto url("../image/step2.png");
-    margin-left: 20px;
+/*    margin-left: 20px;*/
 }
 .step3 {
     background: no-repeat center/auto url("../image/step3.png");
     padding: 10px;
+/*    margin-left: 20px;*/
+}
+#works > .step2 {
     margin-left: 20px;
 }
+#works > .step3 {
+    margin-left: 20px;
+}
+.works-text {
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 13px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+.works-paragraph {
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: lighter;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+.works-button > img {
+    margin-top: 195px;
+    margin-left: -27px;
+}
+.works-button > p {
+    position: relative;
+    top: 222px;
+    left: -13px;
+    font-size: 10px;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+.arrow > .arrow1 {
+    float: left;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.arrow > .arrow2 {
+    float: right;
+    margin-top: 150px;
+    margin-right: 20px;
+}
+.works-paragraph-step3 {
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: lighter;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: -65px;
+}
+.works-button1 > img {
+    margin-top: 205px;
+    margin-left: -27px;
+}
+.works-button1 > p {
+    position: relative;
+    top: 232px;
+    left: -13px;
+    font-size: 10px;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+.works-text1 {
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+.works-paragraph1 {
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: lighter;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+.arrow1 > .arrow1 {
+    float: left;
+    margin-top: 140px;
+    margin-left: 20px;
+}
+.arrow1 > .arrow2 {
+    float: right;
+    margin-top: 140px;
+    margin-right: 20px;
+}
+.works-button2 > img {
+    margin-top: 185px;
+    margin-left: -27px;
+}
+.works-button2 > p {
+    position: relative;
+    top: 212px;
+    left: -13px;
+    font-size: 10px;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+.works-text2 {
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 75px;
+    margin-left: 20px;
+}
+.meet-partner {
+    text-align: center;
+    margin-top: 100px;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: bold;
+}
+===============================================================================
+===============================================================================
+/*                  partners*/
+===============================================================================
+===============================================================================
+.partners {
+    display: inline-bloc;
+}
+.container > .row > .partners {
+    margin-left: 50px;
+}
+.partners > div {
+    height: 250px;
+}
+.small-img {
+    position: relative;
+    left: -42px
+}
+.partner-name {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+/*    text-align: center;*/
+}
+.partner-hobby {
+    font-family: Roboto;
+    font-size: 14px;
+    text-align: left;
+    font-weight: lighter;
+}
+.redactor > h3 {
+    margin-left: 10px
+/*    text-align: center;*/
+}
+.redactor > p{
+    width: 200px;
+    margin-left: -40px;
+    text-align: center;
+    padding: 0 5px;
+}
+.partners-button {
+    border: 3px solid #ff4e50;
+    border-radius: 50px;
+    height: 48px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 373px;
+}
+.partners-button > p {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ff4e50;
+    margin-left: 30px;
+}
+.discover-promo {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 100px;
+
+}
+===============================================
+===============================================
+/*Discover holiday activity ideas*/
+===============================================
+===============================================
+.discover-main {
+    display: inline-block;
+}
+.activity > img {
+    margin-left: -190px;
+}
+.activity2 > img {
+    margin-left: -60px;
+    margin-top: 2px;
+}
+.activity3 > img {
+    margin-left: -310px;
+    margin-top: -10px;
+}
+.activity4 {
+    margin-left: -166px;
+    margin-top: -28px;
+}
+.activity5 {
+    margin-left: -27px;
+     margin-top: -52px;
+}
+.activity6 {
+    margin-left: -103px;
+     margin-top: -80px;
+}
+.activity7 {
+    margin-left: -5px;
+     margin-top: -27px;
+}
+.ideas > h3 {
+    position: absolute;
+}
+.activity > h3 {
+    text-align: center;
+    top: 240px;
+}
+
