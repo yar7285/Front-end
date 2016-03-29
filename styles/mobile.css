@@ -80,10 +80,11 @@
         margin-left: calc(50% - 145px);
     }
     .step2 {
-    background: no-repeat center/auto url("../image/stpee.png");
+    background-image: url("../image/step222.png");
+        background-clip:
 }
     .step1 {
-    background: no-repeat center/auto url("../image/step1mobile.png");
+    background-image: no-repeat center/auto url("../image/step111.png");
 }
     .step3 {
     background: no-repeat center/auto url("../image/step3mobile.png");
@@ -178,3 +179,120 @@
         margin-top:8px;
     }
 }
+/*
+.discover-down {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+}
+*/
+/*
+div > .discover-paragraph {
+    font-family: Roboto;
+    font-weight: lighter;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+.interest > .pole {
+    border: 2px s\olid #cccccc;
+    height: 40px;
+    width: 240px;
+    margin-left: calc(44% - 120px);
+    margin-top: 40px;
+}
+.interest > .pole > placeholder {
+
+}
+*/
+.interest > .bottom  {
+    width: 160px;
+    height: 40px;
+    border: 2px solid #ff4e50;
+    border-radius: 70px;
+    background-color: #ff4e50;
+    margin-left: 10px;
+    margin-top: 45px;
+    font-family: Montsserat;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.line {
+/*    border: 1px solid black;*/
+    height: 10px;
+/*    width: auto;*/
+    background-color: #ff4e50;
+    margin-top: 100px;
+}
+/*
+.promo-footer > a  {
+    float: left;
+    margin-top: 40px;
+    margin-left: 190px;
+    text-decoration: none;
+    font-family: Montsserat;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff4e50;
+}
+ul {
+    margin-left: 425px;
+    margin-top: 23px;
+
+}
+ul > li {
+    list-style-type: none;
+}
+*/
+/*
+ul .company {
+    font-family: Montsaerat;
+    font-size: 14px;
+    font-weight: bold;
+}
+ul .company2 {
+    margin-top: 20px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: lighter;
+}
+ul .company3, .company4, .company5 {
+    margin-top: 13px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.partn {
+    float: left;
+    margin-left: 578px;
+    margin-top: -150px;
+    font-family: Montsaerat;
+    font-size: 14px;
+    font-weight: bold;
+}
+*/
+
+/*
+.img-footer {
+    float: right;
+    margin-right: 250px;
+    margin-top: -113px;
+}
+.logo-footer > p {
+    float: right;
+    font-family: Montsserat;
+    font-weight: bold;
+    font-size: 10px;
+    color: #cccccc;
+    margin-top: -130px;
+    margin-right: 250px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+footer {
+    height: 197px;
+}*/
