@@ -87,164 +87,66 @@
     text-align: center;
     margin-top: 10px;
 }
-=============================================
-=============================================
-/*How it works*/
-=============================================
-=============================================
-#works {
-
-}
-.works-promo {
+.s-promo {
     text-align: center;
     margin-top: 100px;
     font-size: 22px;
     font-family: Montserrat;
     font-weight: bold;
+    margin-bottom: 20px;
 }
-.row {
-    margin-left: 70px;
+/*
+=============================================
+=============================================
+              How it works
+=============================================
+=============================================
+*/
+#works {
+    height: 660px;
+
 }
-#works > div {
-    display: inline-block;
-    border-radius: 5px;
-    height: 393px;
-    width: 263px;
+#works > .step1, .step2, .step3 {
     margin-top: 40px;
-/*    max-width: 100%;*/
-/*    margin-left: 20px;*/
 }
 .step1 {
-    background: no-repeat center/auto url("../image/step1.png");
-/*    margin-left: 10%;*/
+    background-image: url(../image/step14.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+    margin-left: -20px;
+}
+.step1 > img {
+    visibility: hidden;
 }
 .step2 {
-    background: no-repeat center/auto url("../image/step2.png");
-/*    margin-left: 20px;*/
+    background-image: url(../image/step24.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.step2 > img {
+    visibility: hidden;
 }
 .step3 {
-    background: no-repeat center/auto url("../image/step3.png");
-    padding: 10px;
-/*    margin-left: 20px;*/
-}
-#works > .step2 {
+    background-image: url(../image/step34.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
     margin-left: 20px;
+    margin-top: 0px;
 }
-#works > .step3 {
-    margin-left: 20px;
-}
-.works-text {
-    font-size: 24px;
-    font-family: Montserrat;
-    font-weight: bold;
-    color: #fff;
-    margin-top: 13px;
-    margin-bottom: 35px;
-    margin-left: 20px;
-}
-.works-paragraph {
-    font-size: 14px;
-    font-family: Roboto;
-    font-weight: lighter;
-    color: #fff;
-    margin-left: 20px;
-    margin-top: -30px;
-}
-.works-button > img {
-    margin-top: 195px;
-    margin-left: -27px;
-}
-.works-button > p {
-    position: relative;
-    top: 222px;
-    left: -13px;
-    font-size: 10px;
-    font-family: Montserrat;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fff;
-}
-.arrow > .arrow1 {
-    float: left;
-    margin-top: 150px;
-    margin-left: 20px;
-}
-.arrow > .arrow2 {
-    float: right;
-    margin-top: 150px;
-    margin-right: 20px;
-}
-.works-paragraph-step3 {
-    font-size: 14px;
-    font-family: Roboto;
-    font-weight: lighter;
-    color: #fff;
-    margin-left: 20px;
-    margin-top: -65px;
-}
-.works-button1 > img {
-    margin-top: 205px;
-    margin-left: -27px;
-}
-.works-button1 > p {
-    position: relative;
-    top: 232px;
-    left: -13px;
-    font-size: 10px;
-    font-family: Montserrat;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fff;
-}
-.works-text1 {
-    font-size: 24px;
-    font-family: Montserrat;
-    font-weight: bold;
-    color: #fff;
-    margin-top: 20px;
-    margin-bottom: 35px;
-    margin-left: 20px;
-}
-.works-paragraph1 {
-    font-size: 14px;
-    font-family: Roboto;
-    font-weight: lighter;
-    color: #fff;
-    margin-left: 20px;
-    margin-top: -20px;
-}
-.arrow1 > .arrow1 {
-    float: left;
-    margin-top: 140px;
-    margin-left: 20px;
-}
-.arrow1 > .arrow2 {
-    float: right;
-    margin-top: 140px;
-    margin-right: 20px;
-}
-.works-button2 > img {
-    margin-top: 185px;
-    margin-left: -27px;
-}
-.works-button2 > p {
-    position: relative;
-    top: 212px;
-    left: -13px;
-    font-size: 10px;
-    font-family: Montserrat;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fff;
-}
-.works-text2 {
-    font-size: 24px;
-    font-family: Montserrat;
-    font-weight: bold;
-    color: #fff;
-    margin-top: 10px;
-    margin-bottom: 75px;
-    margin-left: 20px;
+.step3 > img{
+    visibility: hidden;
+
 }
 .meet-partner {
     text-align: center;
@@ -253,7 +155,146 @@
     font-size: 22px;
     font-weight: bold;
 }
-===============================================================================
+.vlog1 {
+    position: absolute;
+}
+.vlog2 {
+    position: absolute;
+}
+.vlog3 {
+    position: absolute;
+}
+.arrov1 {
+     margin-top: 150px;
+    margin-left: 10px;
+
+    }
+.arrov2 {
+    margin-left: 220px;
+}
+.arrov3 {
+    margin-left: 10px;
+     margin-top: 150px;
+
+    }
+.arrov4 {
+    margin-left: 210px;
+}
+.arrov5 {
+    margin-left: 10px;
+     margin-top: 160px;
+
+    }
+.arrov6 {
+    margin-left: 210px;
+}
+.vlog1 > .button {
+    border: 2px solid #ff4e50;
+    width: 70px;
+    height: 20px;
+    line-height: 15px;
+    border-radius: 30px;
+    background-color: #ff4e50;
+    margin-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Montsserat;
+    font-size: 10px;
+    font-weight: lighter;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-left: 20px;
+}
+.vlog2 > .button2 {
+    border: 2px solid #ff4e50;
+    width: 70px;
+    height: 20px;
+    line-height: 15px;
+    border-radius: 30px;
+    background-color: #ff4e50;
+    margin-top: 65px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Montsserat;
+    font-size: 10px;
+    font-weight: lighter;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-left: 20px;
+}
+.vlog3 > .button3 {
+    border: 2px solid #ff4e50;
+    width: 70px;
+    height: 20px;
+    line-height: 15px;
+    border-radius: 30px;
+    background-color: #ff4e50;
+    margin-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Montsserat;
+    font-size: 10px;
+    font-weight: lighter;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-left: 20px;
+}
+.titl > h6 {
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #fff;
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.parag > p {
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: lighter;
+    color: #fff;
+    width: 260px;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+.titl2 > h6 {
+    margin-left: 20px;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10px;
+}
+.parag2 > p {
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: lighter;
+    color: #fff;
+    width: 260px;
+    margin-top: -50px;
+}
+.titl3 > h6 {
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #fff;
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.parag3 > p {
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: lighter;
+    color: #fff;
+    width: 260px;
+    margin-top: -50px;
+    margin-left: 20px;
+}
 ===============================================================================
 /*                  partners*/
 ===============================================================================
@@ -267,6 +308,18 @@
 .partners > div {
     height: 250px;
 }
+/*
+.partner > .imags {
+    margin-top: -130px;
+    background-image: url(../imgs/partner.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 120px;
+    border-radius: 70px;
+
+}
+*/
 .small-img {
     position: relative;
     left: -42px
@@ -275,7 +328,6 @@
     font-family: Montserrat;
     font-size: 14px;
     font-weight: bold;
-/*    text-align: center;*/
 }
 .partner-hobby {
     font-family: Roboto;
@@ -285,7 +337,6 @@
 }
 .redactor > h3 {
     margin-left: 10px
-/*    text-align: center;*/
 }
 .redactor > p{
     width: 200px;
@@ -324,32 +375,58 @@
 .discover-main {
     display: inline-block;
 }
-.activity > img {
-    margin-left: -190px;
+.activity, .activity2, .activity3, .activity4, .activity5, .activity6, .activity7 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.activity2 > img {
-    margin-left: -60px;
-    margin-top: 2px;
+.activity {
+    width: 300px;
+    height: 300px;
+    background-image: url(../imgs/idea1.jpg);
+    margin-left: -20px;
 }
-.activity3 > img {
-    margin-left: -310px;
-    margin-top: -10px;
+.activity2 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../imgs/idea2.jpg);
+    margin-left: 20px;
+}
+.activity3 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../imgs/idea3.jpg);
+    margin-left: 20px;
+    background-position: right;
 }
 .activity4 {
-    margin-left: -166px;
-    margin-top: -28px;
+    width: 300px;
+    height: 310px;
+    background-image: url(../imgs/idea4.jpg);
+    margin-left: -20px;
+    margin-top: 25px;
 }
 .activity5 {
-    margin-left: -27px;
-     margin-top: -52px;
+    width: 620px;
+    height: 310px;
+    background-image: url(../imgs/idea5.jpg);
+    margin-left: 20px;
+    margin-top: 25px;
 }
 .activity6 {
-    margin-left: -103px;
-     margin-top: -80px;
+    width: 620px;
+    height: 310px;
+    background-image: url(../imgs/idea6.jpg);
+    margin-left: -20px;
+    margin-top: 25px;
 }
 .activity7 {
-    margin-left: -5px;
-     margin-top: -27px;
+    width: 300px;
+    height: 310px;
+    background-image: url(../imgs/idea7.jpg);
+    margin-left: 20px;
+    margin-top: 25px;
+    background-position: right;
 }
 .ideas > h3 {
     position: absolute;
@@ -361,12 +438,19 @@
 .activity > h3 {
     line-height: 310px;
     height: 310px;
-    margin-left: -45px;
+    margin-left: 45px;
+    margin-top: 30px;
 }
-.activity2 > h3 {
-    line-height: 310px;
-    height: 310px;
-    margin-left: -5px;
+.activity2 >div > h3 {
+    position: absolute;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 135px;
+
 }
 .activity3 > div > h3 {
     width: 220px;
@@ -384,30 +468,30 @@
     line-height: 310px;
     height: 310px;
     width: 300px;
-    margin-left: 30px;
+/*    margin-left: 30px;*/
 }
 .activity4 > h3 {
     line-height: 310px;
     height: 310px;
-    margin-left: 190px;
+    margin-left: 90px;
 }
 .activity5 > h3 {
     line-height: 310px;
     height: 310px;
     margin-left: 190px;
-    margin-top: 45px;
+    margin-top: 0px;
 }
 .activity6 > h3 {
     line-height: 310px;
     height: 310px;
     margin-left: 260px;
-    margin-top: 70px;
+    margin-top: 0px;
 }
 .activity7 > h3 {
     line-height: 310px;
     height: 310px;
-    margin-left: 330px;
-    margin-top: 15px;
+    margin-left: 100px;
+    margin-top: 0px;
 }
 .discover-down {
     font-family: Montserrat;
@@ -445,6 +529,8 @@ div > .discover-paragraph {
     font-size: 14px;
     font-weight: bold;
     color: #fff;
+    outline: none;
+
 }
 
 .line {
@@ -462,8 +548,6 @@ div > .discover-paragraph {
     font-weight: bold;
     color: #ff4e50;
 }
-/*
-*/
 .com {
     margin-left: 425px;
     margin-top: 23px;
@@ -499,26 +583,30 @@ ul .company3, .company4, .company5 {
     font-weight: bold;
 }
 
-
 .img-footer {
-    float: right;
-    margin-right: 250px;
+    float: left;
+/*    margin-right: 250px;*/
+    margin-left: calc(100% - 350px);
     margin-top: -113px;
 }
 .logo-footer > p {
-    float: right;
+    float: left;
     font-family: Montsserat;
     font-weight: bold;
     font-size: 10px;
     color: #cccccc;
     margin-top: -130px;
-    margin-right: 250px;
+/*    margin-right: 250px;*/
+    margin-left: calc(100% - 325px);
     word-spacing: 3px;
     letter-spacing: 1px;
 }
 footer {
     height: 197px;
 }
-overflow {
+.footr:before
+.footr:after {
+    content: "";
+    display: block;
     clear: both;
-}*/
+}
